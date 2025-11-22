@@ -1,4 +1,6 @@
-﻿namespace Domain_Service.Entities.UserCreadentials
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Domain_Service.Entities.UserCreadentials
 {
     /// <summary>
     /// Represents the authentication credentials for a system user.
@@ -10,6 +12,7 @@
     /// </remarks>
     public class UserCreadential
     {
+        [Key]
         /// <summary>
         /// Gets or sets the unique identifier for this user credential record.
         /// </summary>

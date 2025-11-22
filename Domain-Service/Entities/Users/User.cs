@@ -1,4 +1,5 @@
 ﻿using Domain_Service.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace Domain_Service.Entities.Users
 {
@@ -12,15 +13,12 @@ namespace Domain_Service.Entities.Users
     /// </remarks>
     public class User
     {
+        [Key]
         /// <summary>
         /// Gets or sets the unique identifier for the user.
         /// </summary>
         public Guid U_Id { get; set; }
 
-        /// <summary>
-        /// Gets or sets the unique identifier for the user's role.
-        /// </summary>
-        public Guid UR_Id { get; set; }
 
         /// <summary>
         /// Gets or sets the full name of the user.
@@ -37,7 +35,7 @@ namespace Domain_Service.Entities.Users
         /// </summary>
         public string Username { get; set; } = string.Empty;
 
-        /// <summary>
+        /// <summary>I
         /// Gets or sets the user's email address.
         /// </summary>
         public string Email { get; set; } = string.Empty;
@@ -61,5 +59,6 @@ namespace Domain_Service.Entities.Users
         /// Gets or sets the timestamp when the user account was last updated.
         /// </summary>
         public DateTime UpdatedAt { get; set; }
+
     }
 }

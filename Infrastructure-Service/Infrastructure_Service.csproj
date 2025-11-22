@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Persistance\Repositories\" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application-Service\Application_Service.csproj" />
+    <ProjectReference Include="..\Domain-Service\Domain_Service.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,7 +17,7 @@ namespace Domain_Service.Entities.Users
         /// <summary>
         /// Gets or sets the unique identifier for the user.
         /// </summary>
-        public Guid U_Id { get; set; }
+        public Guid U_Id { get; set; } 
 
 
         /// <summary>

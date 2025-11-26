@@ -1,6 +1,8 @@
-﻿using Domain_Service.RepoInterfaces.UserCreadRepo;
+﻿using Domain_Service.RepoInterfaces.GenericRepo;
+using Domain_Service.RepoInterfaces.UserCreadRepo;
 using Domain_Service.RepoInterfaces.UserRoles;
 using Domain_Service.RepoInterfaces.Users;
+using Infrastructure_Service.Persistance.GenericRepo;
 using Infrastructure_Service.Persistance.Repositories.UserCreadRepo;
 using Infrastructure_Service.Persistance.Repositories.UserRoles;
 using Infrastructure_Service.Persistance.Repositories.Users;
@@ -14,7 +16,8 @@ namespace Infrastructure_Service.DI.Repositories_DI
         {
             services.AddScoped<IUserRepo, UserRepo>()
                 .AddScoped<IUserCreadRepo, UserCreadRepo>()
-                .AddScoped<IUserRoleRepo, UserRoleRepo>();
+                .AddScoped<IUserRoleRepo, UserRoleRepo>()
+                .AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
             return services;
         }

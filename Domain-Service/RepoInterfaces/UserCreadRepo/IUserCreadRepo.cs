@@ -1,4 +1,4 @@
-﻿using Domain_Service.Entities.UserCreadentials;
+﻿using Application_Service.Entities.UserModule.UserCreadentials;
 using System;
 using System.Collections.Generic;
 using System.Linq;

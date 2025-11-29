@@ -1,5 +1,5 @@
-﻿using Domain_Service.Entities.Roles;
-using Domain_Service.Entities.Users;
+﻿using Application_Service.Entities.UserModule.Roles;
+using Application_Service.Entities.UserModule.Users;
 using Domain_Service.Enums;
 using System;
 using System.Collections.Generic;

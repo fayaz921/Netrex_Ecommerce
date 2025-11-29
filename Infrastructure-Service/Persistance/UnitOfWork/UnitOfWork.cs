@@ -1,6 +1,6 @@
-﻿using Domain_Service.Entities.Roles;
-using Domain_Service.Entities.UserCreadentials;
-using Domain_Service.Entities.Users;
+﻿using Application_Service.Entities.UserModule.Roles;
+using Application_Service.Entities.UserModule.UserCreadentials;
+using Application_Service.Entities.UserModule.Users;
 using Domain_Service.RepoInterfaces.GenericRepo;
 using Domain_Service.RepoInterfaces.UnitOfWork;
 using Infrastructure_Service.Data;

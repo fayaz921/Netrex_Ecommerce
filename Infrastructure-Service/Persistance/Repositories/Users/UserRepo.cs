@@ -1,4 +1,4 @@
-﻿using Domain_Service.Entities.Users;
+﻿using Application_Service.Entities.UserModule.Users;
 using Domain_Service.RepoInterfaces.Users;
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
-﻿using Application_Service.Services.Implementation;
-using Domain_Service.Entities.UserCreadentials;
-using Domain_Service.Entities.Users;
+﻿using Application_Service.Entities.UserModule.UserCreadentials;
+using Application_Service.Entities.UserModule.Users;
+using Application_Service.Services.Implementation;
 using System;
 using System.Collections.Generic;
 using System.Linq;

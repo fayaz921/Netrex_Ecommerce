@@ -1,4 +1,5 @@
-﻿using Application_Service.Entities.UserModule.Users;
+﻿using Application_Service.Entities.PaymentAndPayoutModule;
+using Application_Service.Entities.UserModule.Users;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,9 @@ namespace Infrastructure_Service.Data
         {
             
         }
-        DbSet<User> Users { get; set; }
+      public DbSet<User> Users { get; set; }
+
+       public DbSet<Invoice> Invoices { get; set; }
     }
     
 }

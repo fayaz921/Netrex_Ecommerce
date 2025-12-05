@@ -1,4 +1,5 @@
-﻿using Application_Service.Entities.UserModule.Roles;
+﻿using Application_Service.Entities.PaymentAndPayoutModule;
+using Application_Service.Entities.UserModule.Roles;
 using Application_Service.Entities.UserModule.UserCreadentials;
 using Application_Service.Entities.UserModule.Users;
 using Domain_Service.RepoInterfaces.GenericRepo;
@@ -15,6 +16,7 @@ namespace Domain_Service.RepoInterfaces.UnitOfWork
         IRepository<User> Users { get; }
         IRepository<UserCreadential> Credentials { get; }
         IRepository<UserRole> UserRoles { get; }
+        IRepository<Invoice> Invoices { get; }
         Task<int> SaveChangesAsync();
     }
 }

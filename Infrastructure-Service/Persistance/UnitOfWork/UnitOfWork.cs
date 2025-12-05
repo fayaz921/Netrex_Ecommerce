@@ -1,4 +1,5 @@
-﻿using Application_Service.Entities.UserModule.Roles;
+﻿using Application_Service.Entities.PaymentAndPayoutModule;
+using Application_Service.Entities.UserModule.Roles;
 using Application_Service.Entities.UserModule.UserCreadentials;
 using Application_Service.Entities.UserModule.Users;
 using Domain_Service.RepoInterfaces.GenericRepo;
@@ -25,6 +26,8 @@ namespace Infrastructure_Service.Persistance.UnitOfWork
         public IRepository<UserCreadential> Credentials => new Repository<UserCreadential>(_context);
 
         public IRepository<UserRole> UserRoles => new Repository<UserRole>(_context);
+
+        public IRepository<Invoice> Invoices => throw new NotImplementedException();
 
         public async Task<int> SaveChangesAsync()
         {

@@ -1,12 +1,8 @@
-﻿using Domain_Service.RepoInterfaces.GenericRepo;
+﻿using Application_Service.Persistance.Repositories.UserManagment;
+using Application_Service.RepoInterfaces.UserManagment;
+using Domain_Service.RepoInterfaces.GenericRepo;
 using Domain_Service.RepoInterfaces.UnitOfWork;
-using Domain_Service.RepoInterfaces.UserCreadRepo;
-using Domain_Service.RepoInterfaces.UserRoles;
-using Domain_Service.RepoInterfaces.Users;
 using Infrastructure_Service.Persistance.GenericRepo;
-using Infrastructure_Service.Persistance.Repositories.UserCreadRepo;
-using Infrastructure_Service.Persistance.Repositories.UserRoles;
-using Infrastructure_Service.Persistance.Repositories.Users;
 using Infrastructure_Service.Persistance.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 

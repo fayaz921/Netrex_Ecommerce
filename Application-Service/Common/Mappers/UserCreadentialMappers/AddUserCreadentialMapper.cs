@@ -1,5 +1,4 @@
-﻿using Application_Service.Entities.UserModule.UserCreadentials;
-using Application_Service.Entities.UserModule.Users;
+﻿using Application_Service.Entities.UserModule;
 using Application_Service.Services.Implementation;
 using System;
 using System.Collections.Generic;

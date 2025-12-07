@@ -1,5 +1,5 @@
-﻿using Application_Service.Services.Implementation;
-using Application_Service.Services.Interfaces;
+﻿using Application_Service.Services.UserManagmentService.Implementation;
+using Application_Service.Services.UserManagmentService.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application_Service.DI.Services_DI

@@ -1,5 +1,5 @@
 ﻿using Application_Service.Entities.PaymentAndPayoutModule;
-using Application_Service.Entities.UserModule.Users;
+using Application_Service.Entities.UserModule;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

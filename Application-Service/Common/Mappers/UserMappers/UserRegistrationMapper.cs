@@ -1,5 +1,5 @@
 ﻿using Application_Service.DTO_s.UserDto.Account;
-using Application_Service.Entities.UserModule.Users;
+using Application_Service.Entities.UserModule;
 using System;
 using System.Collections.Generic;
 using System.Linq;

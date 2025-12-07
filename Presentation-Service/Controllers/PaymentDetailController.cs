@@ -1,5 +1,5 @@
 ﻿using Application_Service.DTO_s.PaymentAndPayout;
-using Application_Service.Services.Interfaces;
+using Application_Service.Services.PaymentAndPayoutService.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

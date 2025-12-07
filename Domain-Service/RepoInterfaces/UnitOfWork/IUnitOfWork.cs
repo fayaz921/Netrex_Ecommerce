@@ -1,7 +1,5 @@
 ﻿using Application_Service.Entities.PaymentAndPayoutModule;
-using Application_Service.Entities.UserModule.Roles;
-using Application_Service.Entities.UserModule.UserCreadentials;
-using Application_Service.Entities.UserModule.Users;
+using Application_Service.Entities.UserModule;
 using Domain_Service.RepoInterfaces.GenericRepo;
 using System;
 using System.Collections.Generic;
